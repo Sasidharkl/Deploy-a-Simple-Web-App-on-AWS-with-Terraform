@@ -1,0 +1,15 @@
+Initialize Terraform:
+terraform init
+
+Validate Configuration:
+terraform validate
+
+Apply Infrastructure:
+terraform apply
+
+Access Web App:
+Copy the public IP from Terraform output
+Visit: http://<public-ip> to see the NGINX welcome message.
+
+🔁 Destroy Infrastructure
+terraform destroy
